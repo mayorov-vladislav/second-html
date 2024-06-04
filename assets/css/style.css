@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+header {
+    padding: 67px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%
+}
+
+header nav h2 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+}
+
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li.link {
+    margin: 0 45px;
+}
+
+header nav ul li.btn a, .hero li.btn a{
+    color: #fff;
+    background: #000;
+    padding: 12px 17px;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+.hero {
+    margin-top: 110px;
+    text-align: center;
+    list-style: none;
+}
+
+.hero h1 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #828282;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.hero li.btn a {
+    padding: 15px 23px;
+    
+}
+
+.image {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.main h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.main p {
+    font-weight: 400;
+    font-size: 21px;
+    color: #828282;
+    padding-top: 5px;
+}
+
+.main .blocks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.main .blocks .block {
+    flex: 1 1 30%;
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 30%;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main .blocks .block img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.main .blocks .block h4 {
+    padding: 5px 0;
+}
+
+footer {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .links h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+footer .links .link {
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+
+footer .links .link img {
+    padding-right: 50px;
+    vertical-align: bottom;
+}
+
+footer .topics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .topics ul {
+    padding: 0 100px;
+}
+
+footer .topics ul li {
+    list-style: none;
+    margin: 15px 0;
+    
+}
